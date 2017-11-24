@@ -1,0 +1,46 @@
+{
+    "ftp": 21,
+    "ssh": 22,
+    "telnet": 23,
+    "smtp": 25,
+    "web": 80,
+    "pop3": 110,
+    "rpc": 135,
+    "smb": 139,
+    "imap": 143,
+    "snmp": 161,
+    "https web": 443,
+    "mysql": 3306,
+    "postgresql": 5432,
+    "hdfs": {
+
+    },
+    "hbase": {
+        "rest.port": 20550,
+        "rest.info.port": 8085,
+        "regionserver.thrift.port": 9090,
+        "thrift.info.port": 9095,
+        "master.port": 60000,
+        "master.info.port": 60010,
+        "regionserver.port": 60020,
+        "regionserver.info.port": 60030
+    },
+    "hive": {
+        "metastore.port": 9083,
+        "server2.thrift.port": 10000,
+        "server2.webui.port": 10002,
+        "templeton.port": 50111
+    },
+    "hue": {
+        "http_port": 8888,
+        "Listen": 8889
+    },
+    "flume": 41414,
+    "streamsets": {
+        "http.port": 18630,
+        "https.port": -1,
+        "ldap.port": 389,
+        "mail.smtp.port": 25,
+        "mail.smtps.port": 25
+    }
+}

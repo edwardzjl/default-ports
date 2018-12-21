@@ -42,5 +42,6 @@
         "ldap.port": 389,
         "mail.smtp.port": 25,
         "mail.smtps.port": 25
-    }
+    },
+    "spark-notebook": 9000
 }
